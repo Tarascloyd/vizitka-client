@@ -1,0 +1,31 @@
+.welcome {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.welcome-block {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.welcome-block:before {
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.changer {
+    margin-right: 70px;
+}
+
+.icons {
+    width: 220px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 40px;
+}
