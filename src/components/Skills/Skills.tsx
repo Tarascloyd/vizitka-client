@@ -7,7 +7,7 @@ const Skills = ():JSX.Element => {
       <div className='skills'>
           <div className='cell'>
             <Tag>Java</Tag>
-              <Meter fill={3}/>
+            <Meter fill={3}/>
           </div>
           <div className='cell'>
             <Tag>SQL</Tag>

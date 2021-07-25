@@ -1,0 +1,8 @@
+.interests {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    align-items: center;
+    width: 320px;
+}

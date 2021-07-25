@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 
 interface PageProps {
 	title: string;
-	children: ReactNode;
+	children?: ReactNode;
 	text?: string;
 }
 
